@@ -33,6 +33,7 @@ pip3 install --upgrade pip
 - **Step 3:** Clone the following repo
 
 ```sh
+mkdir demo && cd demo
 git clone https://github.com/ultralytics/ultralytics.git
 ```
 
@@ -75,6 +76,7 @@ yolo detect predict model=yolov8n.pt source='https://ultralytics.com/images/bus.
 - **Step 10:** Clone exercise counter demo
 
 ```sh
+cd ..
 git clone https://github.com/yuyoujiang/Paste-Texture-into-Target-Image-with-YOLOv8.git
 ```
 
@@ -101,12 +103,13 @@ yolo export model=<path to model>/yolov8m-pose.pt format=engine half=True device
 mkdir sources
 
 demo
-├── MakerFinding.py
 ├── ultralytics
-└── soueces
-    ├── makey02.png
-    ├── yolov8m-pose.pt
-    ... 
+├── Paste-Texture-into-Target-Image-with-YOLOv8
+    ├── MakerFinding.py
+    ├── soueces
+        ├── makey02.png
+        ├── yolov8m-pose.pt
+         ... 
 ```
 
 ## Let's Run It!
