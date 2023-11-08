@@ -1,4 +1,9 @@
 # Paste Texture into Target Image with YOLOv8
+
+
+![pic1](./sources/pic1.gif)
+
+
 This is a image fusion demo with YOLOv8. 
 You can use this project to paste a specific texture on the left shoulder of pedestrian objects in the input image. 
 Specifically, using YOLOv8 to detect keypoint information in the input image, adjust the size and position of the texture based on the keypoints.
@@ -109,8 +114,6 @@ demo
 ```sh
 python3 MakerFinding.py --model_path ./sources/yolov8m-pose.pt --input 0 --texture_path ./sources/makey02.png
 ```
-
-![result 00_00_00-00_00_30](https://github.com/yuyoujiang/exercise-counting-with-YOLOv8/assets/76863444/414e1cd1-ab7d-4ca6-91e4-c8a948fe55ae)
 
 ## References
 
